@@ -5,6 +5,12 @@
   "manifest_version": 3,
   "permissions": ["storage"],
   "action": {
-    "default_popup": "index.html"
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "/images/github-label-copier.png",
+      "32": "/images/github-label-copier.png",
+      "48": "/images/github-label-copier.png",
+      "128": "/images/github-label-copier.png"
+    }
   }
 }
