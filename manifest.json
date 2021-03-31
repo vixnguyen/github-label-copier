@@ -1,0 +1,10 @@
+{
+  "name": "GitHub Label Copier",
+  "description": "The easiest way to copy GitHub labels between repositories.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "index.html"
+  }
+}

@@ -1,1 +1,1 @@
-# p-github-labels-cloning
+# GitHub Label Copier

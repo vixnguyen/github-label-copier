@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GitHub Label Cloner</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <section class="container">
+      <h1>GitHub Label Copier</h1>
+      <div class="des">The easiest way to copy GitHub labels between repositories.</div>
+      <div class="form-group">
+        <label for="js-source">Source</label>
+        <input type="text" class="form-control" id="js-source" aria-describedby="emailHelp" placeholder="https://github.com/{org}/{repo}">
+      </div>
+      <div class="form-group">
+        <label for="js-destination">Destination</label>
+        <input type="text" class="form-control" id="js-destination" placeholder="https://github.com/{org}/{repo}">
+      </div>
+      <div class="form-group">
+        <label for="js-token">GitHub Token</label>
+        <input type="text" class="form-control" id="js-token" placeholder="">
+        <small class="help"><a href="https://github.com/settings/tokens" target="_blank">Don't know how to get your GitHub token?</a></small>
+      </div>
+      <div class="form-group">
+        <button id="js-submit" class="btn">Copy</button>
+      </div>
+      <div class="alert" id="js-alert"></div>
+    </section>
+    <script src="main.js"></script>
+  </body>
+</html>
