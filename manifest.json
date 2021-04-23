@@ -1,16 +1,25 @@
 {
   "name": "GitHub Label Copier",
   "description": "The easiest way to copy GitHub labels between repositories.",
-  "version": "1.0",
+  "version": "1.1",
   "manifest_version": 3,
   "permissions": ["storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
   "action": {
-    "default_popup": "index.html",
+    "default_popup": "popup.html",
     "default_icon": {
-      "16": "/images/github-label-copier.png",
-      "32": "/images/github-label-copier.png",
-      "48": "/images/github-label-copier.png",
-      "128": "/images/github-label-copier.png"
+      "16": "/images/github-label-copier_16.png",
+      "32": "/images/github-label-copier_32.png",
+      "48": "/images/github-label-copier_48.png",
+      "128": "/images/github-label-copier_128.png"
     }
+  },
+  "icons": {
+    "16": "/images/github-label-copier_16.png",
+    "32": "/images/github-label-copier_32.png",
+    "48": "/images/github-label-copier_48.png",
+    "128": "/images/github-label-copier_128.png"
   }
 }
