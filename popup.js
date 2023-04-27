@@ -2,7 +2,7 @@ const GITHUB_API_BASE = 'https://api.github.com';
 const GITHUB_PAGE = 'https://github.com/';
 
 fetchLabelsFromRepo = async ({src, token}) => {
-  let labels = await fetch(`${GITHUB_API_BASE}/repos/${src}/labels`, {
+  let labels = await fetch(`${GITHUB_API_BASE}/repos/${src}/labels?per_page=100`, {
     headers: {
       Accept: 'application/vnd.github.v3+json',
       Authorization: `token ${token}`
