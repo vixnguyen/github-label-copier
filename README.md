@@ -2,7 +2,7 @@
 
 ### Run at local
 - Clone this repo.
-- Run `index.html` on your browser at a static web.
+- Run `index.html` on your browser as a static web.
 - Enjoy your work.
 
 
